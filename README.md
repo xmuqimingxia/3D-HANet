@@ -5,3 +5,7 @@
 Please refer to [CasA](https://github.com/hailanyi/CasA) and [OpenPCDET](https://github.com/open-mmlab/OpenPCDet) for the configuration of the code running environment and training of the model.
 
 Replace the [CasA/pcdet](https://github.com/hailanyi/CasA/tree/master/pcdet) folder in CasA with the [3DHANet/pcdet](https://github.com/xmuqimingxia/3D-HANet/tree/main/pcdet) folder provided by us to run the 3DHANet code.
+
+
+
+The module of '3-D Heatmap Generator' is in the height_compression.py; GT of 3D heatmap value is in the anchor_head_single.py
