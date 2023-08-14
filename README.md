@@ -1,4 +1,4 @@
-# 3D-HANet: A Flexible 3D Heatmap Auxiliary Network for Object Detection [Paper link](https://ieeexplore.ieee.org/abstract/document/10056279)
+# 3D-HANet: A Flexible 3D Heatmap Auxiliary Network for Object Detection(TGRS) [Paper link](https://ieeexplore.ieee.org/abstract/document/10056279)
 
 3D HANet is a flexible plug-and-play Auxiliary Network. Although our open source code is based on the CasA detector, it can be verified with simple modifications to other detectors.
 
