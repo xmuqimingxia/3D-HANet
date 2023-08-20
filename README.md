@@ -8,4 +8,4 @@ Replace the [CasA/pcdet](https://github.com/hailanyi/CasA/tree/master/pcdet) fol
 
 
 
-The module of '3-D Heatmap Generator' is in the [3D-HANet/pcdet/models/backbones_2d/map_to_bev/height_compression.py](https://github.com/xmuqimingxia/3D-HANet/blob/main/pcdet/models/dense_heads/anchor_head_single.py); GT of 3D heatmap value is in the [3D-HANet/pcdet/models/dense_heads/anchor_head_single.py](https://github.com/xmuqimingxia/3D-HANet/pcdet/models/dense_heads/anchor_head_single.py)
+The module of '3-D Heatmap Generator' is in the [3D-HANet/pcdet/models/backbones_2d/map_to_bev/height_compression.py](https://github.com/xmuqimingxia/3D-HANet/blob/main/pcdet/models/dense_heads/anchor_head_single.py); GT of 3D heatmap value is in the [3D-HANet/pcdet/models/dense_heads/anchor_head_single.py](https://github.com/xmuqimingxia/3D-HANet/blob/main/pcdet/models/dense_heads/anchor_head_single.py)
