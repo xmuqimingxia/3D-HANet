@@ -93,32 +93,9 @@ python3 -m pcdet.datasets.waymo.waymo_tracking_dataset --cfg_file tools/cfgs/dat
 
 ```
 git clone https://github.com/xmuqimingxia/3D-HANet.git
-cd CasA
+cd 3D-HANet
 python3 setup.py develop
 ```
-
-### Training and Evaluation
-
-#### Evaluation
-
-```
-cd tools
-python3 test.py --cfg_file ${CONFIG_FILE} --batch_size ${BATCH_SIZE} --ckpt ${CKPT}
-```
-
-For example, if you test the CasA-V model:
-
-```
-cd tools
-python3 test.py --cfg_file cfgs/kitti_models/CasA-V.yaml --ckpt CasA-V.pth
-```
-
-Multiple GPU test: you need modify the gpu number in the dist_test.sh and run
-```
-sh dist_test.sh 
-```
-The log infos are saved into log-test.txt
-You can run ```cat log-test.txt``` to view the test results.
 
 #### Training
 
@@ -142,4 +119,4 @@ The log infos are saved into log.txt
 You can run ```cat log.txt``` to view the training process.
 
 ## Acknowledgement
-This repo is developed from `OpenPCDet 0.3`, we thank shaoshuai shi for his implementation of [OpenPCDet](https://github.com/open-mmlab/OpenPCDet). 
+This repo is developed from `OpenPCDet 0.3`, we thank shaoshuai shi for his implementation of [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and Hai wu for [CasA](https://github.com/hailanyi/CasA).
