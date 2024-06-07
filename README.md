@@ -92,7 +92,7 @@ python3 -m pcdet.datasets.waymo.waymo_tracking_dataset --cfg_file tools/cfgs/dat
 #### Installation
 
 ```
-git clone https://github.com/hailanyi/CasA.git
+git clone [[https://github.com/hailanyi/3D-HANET](https://github.com/xmuqimingxia/3D-HANet).git](https://github.com/xmuqimingxia/3D-HANet/)
 cd CasA
 python3 setup.py develop
 ```
